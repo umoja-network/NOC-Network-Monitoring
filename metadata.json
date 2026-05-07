@@ -1,0 +1,5 @@
+{
+  "name": "NOC Network Monitor",
+  "description": "A professional Network Operations Center dashboard for monitoring CPE200 and Baicell devices with real-time reachability and traffic analytics.",
+  "requestFramePermissions": []
+}

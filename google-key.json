@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "wi-fi-lite-monitoring",
+  "private_key_id": "963d10eaba3eff0a195bf3ee91965b4186101a3f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCxNo0Lkxwl1GOk\ngG2tpbdU2hvZhZMyVvITnH2N80nU8mjUW/WG0F7WMlurIgwKIlFEqmssijflkMdi\nvy92ht1CYD4Lq1AxMKMHghRAeZq4ScZepxwlXXhNTygMY3J1ryimZrMpVQyD8VwT\nRNTf641rzPW44/QrY+nquZJAHn+j53FuO1FpoDnvvYv3IVlelDTRRNq/k8Ym/Ym1\nF3V6WRgKzfjlVKxa3NVKZlmnu2D5ZOj04SwU29PlGoTo+MtKATEGhTpi4uApnviz\nAoThTrYCuhOq/MaVoVU0y9o3z5xNesJ/iCMQLF4ga7Rq8suMkpdhtR95II73nxnN\n50lgEUgPAgMBAAECggEADIbQ1SbSw4qa37yQUPw41Fx1wYK9EyVGoV11GcnYlNJT\ncXqhBXGVpcoTfsPxjYaiSTQYTu99egXDTyPSkawacdNM/Eguay7tjaqDqF18/7yy\ngAUlN5YlQQzwxZQ2BnZmOjT72/BK6fy8R6rPtv0qMJrHxKHTpBZaj6DXr+trL5Ie\nrcYtWLXXwL+jI1fS1w2cjctXndJn5H7pI7+4XfUOQik21fLD8w0WLcAnwlL8zHlS\n8gDskxWZJqXijNhVVzeM0NwDqBdjc742sXACptGp7c2eY1dHvLOUaV4ttvAVdrKQ\nCDFGcS1uMFlw3qwGVSONjrMJf9FQvjlgCq49YDFkQQKBgQDiI92WwdRHykCPQk/7\nn2wcRRzliNaESdHzZDVDsoZNPyLsZm0wi/Di3HOh2ngHDanyvBynsliCgbNnpzpP\najrJ+WeXO6iORS6+rTaKsqCf97B6+m7UHTJskwCh8x1uCaquzcdO6JaFKvZSleBz\nNDGeO+/VCNhyM4EvJR2s5fzfLwKBgQDInNKkiQzfn6L9lJ02VKUEef3+Drfm2B6I\nXWnRzL2G7HSsMJEbInOWfvpFhjNzl2sFVX/RhFskPOUvkB77Cty3BhXAMT0QXkBH\n1b9feSo0RFWirATzsr+urXn4n7XRGL3Eea4SRo92E6PjbFCGJa2UxPcuGRRpq4T2\nfjirt0btIQKBgGmw5ZHeSX68EmxiS8uIeRjFXHoS+F+fuNaOkS5ws8BKr+HZBVNZ\nNF5zNkABQXPaeQGP1byy6Bcm01iwmdogBhX70OSn52GHCA/qGMG+NsBNHVh8z2un\nsbd5BSSr4adaMUG9v1cr8Z2PtMxobByr2jzgOnlQxwio9cm5CSOT4hnVAoGBAMVm\nyz9sPGavxsqPukMD93z4LZ4ZDYzxjNnSUZZISRbDBeuJvr9cnzCvscVH0MklbgHJ\nqASaoLR/12V+A34zqgvOyQhdayD4HXiSM8XWjFjyBPIVIqpKcaOIwESNo3MlTVZQ\nBaGmHPSrTtEye+oEmVGSn0eVFikExclnWoxdxEUBAoGAH2IxKJ5J3AC5s5yPPA0X\nz1908y4Nnxfn55EbfIWQon+kT/3jp91CEYTFm/1MzaegIw+IhAOuoJdMO46bJDik\nCnMDL3YfiXdHqmpRMDd1hZ/2fMufzFE0KZ8QiZNuVe2OuUj4mWRJbqvrgfeUs/nK\nB4/TCxLtqswAS/OqV6kJ4g8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cpe200-reader-301@wi-fi-lite-monitoring.iam.gserviceaccount.com",
+  "client_id": "111429819219944477634",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cpe200-reader-301%40wi-fi-lite-monitoring.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
