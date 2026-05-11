@@ -191,8 +191,8 @@ const DeviceMap: React.FC<DeviceMapProps> = ({ devices, onSelectDevice }) => {
                       return conn === apMatch || conn === apIdMatch || conn.replace(/:/g, '') === apMacMatch;
                     })
                     .map(d => ({
-                      start: [device.coordinates!.lat, device.coordinates!.lng],
-                      end: [d.coordinates!.lat, d.coordinates!.lng],
+                      start: [device.coordinates!.lat, device.coordinates!.lng] as [number, number],
+                      end: [d.coordinates!.lat, d.coordinates!.lng] as [number, number],
                       color: getStatusColor(d.monitoringStatus)
                     }));
                   

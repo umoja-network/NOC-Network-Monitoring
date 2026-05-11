@@ -4,21 +4,22 @@ import { google } from "googleapis";
 import path from "path";
 import { createServer as createViteServer } from "vite";
 import dotenv from "dotenv";
+import type { Device } from "./src/types";
 
 dotenv.config();
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = process.env.PORT ? Number(process.env.PORT) : 3000;
 
   app.use(express.json());
   app.use(cors());
 
   // Google Auth Setup
   const auth = new google.auth.GoogleAuth({
-    keyFile: path.join(process.cwd(), "google-key.json"),
-    scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
-  });
+  credentials: JSON.parse(process.env.GOOGLE_CREDENTIALS || "{}"),
+  scopes: ["https://www.googleapis.com/auth/spreadsheets.readonly"],
+});
 
   const sheets = google.sheets({ version: "v4", auth });
   const SPREADSHEET_ID = "1Q8ir1jz8-9x4urq0ESt0HB7i1zBwVAUaDR8riCAQjaM";
@@ -27,8 +28,8 @@ async function startServer() {
   app.get("/api/devices", async (req, res) => {
     try {
       const type = req.query.type || "CPE200";
-      let range;
-      let devices = [];
+      let range: string;
+      let devices: Device[] = [];
 
       const DEFAULT_COORDS = { lat: -26.327521, lng: 27.873059 };
 

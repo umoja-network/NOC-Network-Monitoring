@@ -15,7 +15,7 @@ interface DashboardProps {
 
 export default function Dashboard({ cpeDevices, baicellDevices, onViewList, onSelectDevice }: DashboardProps) {
   const [loading, setLoading] = React.useState(true);
-  const [dailyAverages, setDailyAverages] = React.useState<{ day: string; avg: number }[]>([]);
+  const [dailyAverages, setDailyAverages] = React.useState<{ day: string; avg: number; count: number; onlineDevices: Device[] }[]>([]);
 
   React.useEffect(() => {
     const fetchAverages = async () => {
@@ -217,9 +217,9 @@ export default function Dashboard({ cpeDevices, baicellDevices, onViewList, onSe
                 <Bar 
                   dataKey="avg" 
                   radius={[4, 4, 0, 0]}
-                  onClick={(data) => {
-                    if (data && data.onlineDevices) {
-                      onViewList(data.onlineDevices, `Online Devices - ${data.day}`);
+                  onClick={(data: any) => {
+                    if (data && data.payload && data.payload.onlineDevices) {
+                      onViewList(data.payload.onlineDevices, `Online Devices - ${data.payload.day}`);
                     }
                   }}
                 >
